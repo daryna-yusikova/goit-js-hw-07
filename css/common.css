@@ -1,0 +1,209 @@
+* {
+  box-sizing: border-box;
+}
+
+* {
+  transition: all 0.4s ease;
+}
+
+body {
+  margin: 16px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Montserat,
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #fafafa;
+  color: #212121;
+  line-height: 1.5;
+}
+
+.gallery {
+ display: flex;
+ flex-wrap: wrap;
+ list-style: none;
+  column-gap: 24px;
+  row-gap: 48px;
+  justify-content: center;
+}
+.imageitem {
+max-width: 360px;
+max-height: 240px;
+overflow: hidden;
+}
+
+.imageitem img {
+ 
+  display: block;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+
+.item {
+  padding: 16px;
+  list-style: none;
+  margin-bottom: 24px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.item h2 {
+  font-weight: 600;
+font-size: 24px;
+line-height: 1.33333;
+letter-spacing: 0.04em;
+color: #2e2f42;
+margin-bottom: 16px;
+}
+
+.item ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: 8px;
+  flex-direction: column;
+}
+
+.item li {
+  list-style: none;
+border: 1px solid #808080;
+border-radius: 4px;
+width: 360px;
+height: 40px;
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.04em;
+color: #2e2f42;
+padding: 8px 16px 8px;
+
+}
+
+#name-input {
+border: 1px solid #808080;
+border-radius: 4px;
+width: 360px;
+height: 40px;
+padding: 8px 16px 8px;
+font-family: "Montserrat", sans-serif;
+}
+
+
+h1 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.33333;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
+
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+    display: flex;
+      flex-direction: column;
+      gap: 8px;
+      font-weight: 400;
+        font-size: 16px;
+      
+        /* line-height: 24px; */
+        line-height: 1.5;
+        letter-spacing: 0.04em;
+        color: #2e2f42;
+        margin-top: 8px;
+}
+
+
+
+.login-form input {
+border: 1px solid #808080;
+  border-radius: 4px;
+  width: 360px;
+  height: 40px;
+  padding: 8px 16px 8px;
+    font-family: "Montserrat", sans-serif;
+    color: #2e2f42;
+
+}
+
+.login-form input:hover:not(:focus) {
+  border: 1px solid #000;
+}
+
+.login-form input:focus {
+  border: 1px solid #808080;
+  outline: none;
+}
+
+.login-form button {
+  font-family: "Montserrat", sans-serif;
+  border-radius: 8px;
+    padding-block: 8px;
+    padding-inline: 16px;
+    width: 86px;
+    height: 40px;
+    background: #4e75ff;
+    font-weight: 500;
+      font-size: 16px;
+    
+      /* line-height: 24px; */
+      line-height: 1.5;
+      letter-spacing: 0.04em;
+      color: #fff;
+     border: none;
+     margin-top: 16px;
+}
+
+.login-form button:hover {
+  background: #6c8cff;
+}
+
+
+
+.widget {
+  font-weight: 400;
+    font-size: 16px;
+  
+    /* line-height: 24px; */
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #2e2f42;
+    Typography font-family: "Montserrat", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction : column;
+    gap: 16px;
+}
+
+.widget p {
+  margin: 0;
+}
+
+.change-color {
+  font-weight: 500;
+    font-size: 16px;
+  
+    /* line-height: 24px; */
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #fff;
+    border-radius: 8px;
+      padding-block: 8px;
+      padding-inline: 16px;
+      width: 148px;
+      height: 40px;
+      background: #4e75ff;
+      border: none;
+}
+
+.change-color:hover:focus {
+  background: #6c8cff;
+}
+
+
